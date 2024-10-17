@@ -13,33 +13,26 @@ export const ABOUT_TEXT3 = "I'm not just passionate about coding; I'm also an av
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "09/2024 - Present",
+    role: "IBM i Virtual Internship Program",
+    company: "IBM & Programmers.io",
+    description: `Gaining hands-on experience with IBM i technologies like RPGLE, DB2, and SQLRPGLE. Collaborating with professionals on real-world projects, enhancing skills in enterprise computing and system architecture. Working on practical case studies to solve business problems, integrating IBM i solutions with modern systems and applications.`,
+    technologies: ["RPGLE", "DB2", "SQLRPGLE"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "07/2024 - 08/2024",
+    role: "Software Engineering Virtual Experience",
+    company: "J.P. Morgan",
+    description: `Set up a local development environment by downloading necessary files, tools, and dependencies. Fixed broken files in the repository to ensure correct web application output. Used JPMorgan Chase's open-source library Perspective to generate a live graph displaying a data feed in a clear and visually appealing way for traders to monitor.`,
+    technologies: ["JavaScript", "React.js", "Perspective"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "06/2024 - 07/2024",
+    role: "Flutter Development Intern",
+    company: "CodSoft",
+    description: `Developed and maintained cross-platform mobile applications using Flutter and Dart. Created three Flutter apps: a To-Do List, Music Player, and Recipe app, implementing features such as task management, audio playback, and recipe search with offline access.`,
+    technologies: ["Flutter", "Dart"],
+  }
 ];
 
 export const PROJECTS = [
