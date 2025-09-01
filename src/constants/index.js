@@ -1,30 +1,30 @@
-import project1 from "../assets/projects/Encryptic.png";
-import project2 from "../assets/projects/Social Media.jpg";
-import project3 from "../assets/projects/portfolio.jpg";
-import project4 from "../assets/projects/E-Com.jpeg";
+import project1 from "../assets/projects/Calorie.jpeg";
+import project2 from "../assets/projects/sell Gaming Gear.png";
+import project3 from "../assets/projects/7m.png";
+import project4 from "../assets/projects/yoga.jpeg";
 
-export const HERO_CONTENT = `Passionate and eager Java developer with a keen interest in crafting reliable and efficient software solutions. While I'm a fresher in the industry, my enthusiasm for coding and learning is boundless. I have a solid foundation in Java programming and am proficient in utilizing it to develop scalable and robust applications. My goal is to leverage my skills to contribute to innovative projects, drive business success, and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Passionate and eager Mobile app developer with a keen interest in crafting reliable and efficient software solutions. While I'm a fresher in the industry, my enthusiasm for coding and learning is boundless. I have a solid foundation in Java programming and am proficient in utilizing it to develop scalable and robust applications. My goal is to leverage my skills to contribute to innovative projects, drive business success, and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am an aspiring and adaptable entry-level developer equipped with a diverse skill set that encompasses Spring Boot, Flutter, React, SQL, Java, HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. Despite being in the early stages of my career, my passion for coding and technology has been the driving force behind my rapid learning and growth. I have dedicated myself to mastering these technologies through rigorous coursework, hands-on projects, and a commitment to staying updated on industry trends.`;
+export const ABOUT_TEXT = `I am an aspiring and adaptable entry-level developer equipped with a diverse skill set that encompasses Spring Boot, Flutter, React, kotlin,sqlite,firebase,mongoDB,node.js,CI/CD. Despite being in the early stages of my career, my passion for coding and technology has been the driving force behind my rapid learning and growth. I have dedicated myself to mastering these technologies through rigorous coursework, hands-on projects, and a commitment to staying updated on industry trends.`;
 
-export const ABOUT_TEXT2 = "My journey into software development began with a fascination for problem-solving and a desire to create meaningful solutions that enhance user experiences. Whether it's building robust backend systems with Spring Boot, crafting elegant UIs with Flutter and React, or optimizing database performance with SQL, I approach each project with enthusiasm and a determination to deliver excellence.";
+export const ABOUT_TEXT2 = "My journey into software development began with a fascination for problem-solving and a desire to create meaningful solutions that enhance user experiences. Whether it's building robust backend systems with node.js, crafting elegant UIs with Flutter and React, or optimizing database performance with SQL, I approach each project with enthusiasm and a determination to deliver excellence.";
 
 export const ABOUT_TEXT3 = "I'm not just passionate about coding; I'm also an avid table tennis player, finding joy in the fast-paced nature of the game and the strategic thinking it requires. Whether I'm coding or playing table tennis, I approach each challenge with focus, determination, and a drive to continuously improve.";
 
 export const EXPERIENCES = [
   {
-    year: "09/2024 - Present",
-    role: "IBM i Virtual Internship Program",
-    company: "IBM & Programmers.io",
-    description: `Gaining hands-on experience with IBM i technologies like RPGLE, DB2, and SQLRPGLE. Collaborating with professionals on real-world projects, enhancing skills in enterprise computing and system architecture. Working on practical case studies to solve business problems, integrating IBM i solutions with modern systems and applications.`,
-    technologies: ["RPGLE", "DB2", "SQLRPGLE"],
+    "year": "May 2024 - July 2024",
+    "role": "Full-Stack Mobile Developer Intern",
+    "company": "Console Kit",
+    "description": "Developed a full-stack mobile application using React Native for listing and managing gaming products. Built a responsive UI with dark/light themes and shimmer loading. Integrated Firebase for OTP authorization, Razorpay for payments in test mode, and image uploads. Designed and connected REST APIs using Node.js to a MongoDB Atlas database for secure data storage.",
+    "technologies": ["React Native", "Node.js", "Firebase", "MongoDB Atlas", "REST APIs"]
   },
   {
-    year: "07/2024 - 08/2024",
-    role: "Software Engineering Virtual Experience",
-    company: "J.P. Morgan",
-    description: `Set up a local development environment by downloading necessary files, tools, and dependencies. Fixed broken files in the repository to ensure correct web application output. Used JPMorgan Chase's open-source library Perspective to generate a live graph displaying a data feed in a clear and visually appealing way for traders to monitor.`,
-    technologies: ["JavaScript", "React.js", "Perspective"],
+    "year": "Nov 2023 - Jan 2024",
+    "role": "Software Developer Trainee",
+    "company": "Airtel India",
+    "description": "Designed and implemented software design patterns and RESTful APIs under the guidance of senior developers. Participated in agile development cycles, contributing to team goals and process optimization during a two-month program focused on software design.",
+    "technologies": ["REST APIs", "Agile Methodologies", "Software Design Patterns"]
   },
   {
     year: "06/2024 - 07/2024",
@@ -37,37 +37,33 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Encryptic chatting app (Ongoing)",
-    image: project1,
-    description:
-      "Chatting application for both android and IOS with some unique feature and Unique UI. ",
-    technologies: ["Flutter", "Dart", "Spring Boot", "Sql"],
+    "title": "AI Calorie Tracker",
+    "image": project1,
+    "description": "A cross-platform calorie tracking app that allows users to log meals and monitor nutrition. Features AI-powered food recognition using Hugging Face models, offline data persistence with SQflite, and an analytics dashboard with charts. Manages state using the BLOC pattern.",
+    "technologies": ["Flutter", "Firebase", "Hugging Face", "BLOC", "SQflite", "fl_chart"]
   },
   {
-    title: "Social Media Website(Ongoing)",
-    image: project2,
-    description:
-      "Social media website simillar to instagram with some defferent features from instagram.",
-    technologies: ["React", "Spring Boot", "Sql"],
+    "title": "Sell Gaming",
+    "image": project2,
+    "description": "A full-stack mobile app for listing, editing, and managing gaming products. Features include OTP login with Firebase, image uploads, dark/light themes, and animated UI elements. The backend is powered by a custom Node.js REST API connected to MongoDB.",
+    "technologies": ["React Native", "Node.js", "Firebase", "MongoDB Atlas", "REST APIs"]
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    "title": "7 Minute Workout App",
+    "image": project3,
+    "description": "A fitness application designed for quick and effective home workouts. The app guides users through a series of 12 body-weight exercises performed in 30-second intervals with short rests, providing a convenient exercise solution.",
+    "technologies": ["Kotlin", "Jetpack Compose", "Android SDK"]
   },
   {
-    title: "E-Commerce aap",
-    image: project4,
-    description:
-      "E-Commerce App for showcasing products with a user friendly UI",
-    technologies: ["Flutter", "Dart"],
-  },
+    "title": "Yoga App",
+    "image": project4,
+    "description": "A comprehensive yoga mobile application providing personalized sessions, progress tracking, and structured courses for all skill levels. Designed with a clean, intuitive UI to guide users through their wellness journey.",
+    "technologies": ["Flutter", "Dart", "Firebase"]
+  }
 ];
 
 export const CONTACT = {
-  address: "Sikar, Rajasthan",
-  phoneNo: "+91 9828462252",
-  email: "devanshindoriya@gmail.com",
+  address: "Pilani, Rajasthan",
+  phoneNo: "+91 9772379525",
+  email: "ajaysinghtogawas@outlook.com",
 };
